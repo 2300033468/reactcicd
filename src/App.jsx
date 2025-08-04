@@ -10,7 +10,7 @@ function App() {
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
-          <img src={riteLogo} className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
@@ -18,7 +18,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <h1>Hi This is GIT ACTION EXPERIMENT</h1>
-      <h1>Hi This is Second Deployment</h1>
+      <h1>Hi This is second Deployment</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
